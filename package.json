@@ -1,0 +1,34 @@
+{
+  "name": "@kaliber/pack",
+  "version": "0.0.0",
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "kaliber-pack": "./bin/kaliber-pack.js"
+  },
+  "type": "module",
+  "keywords": [
+    "pack",
+    "kaliber",
+    "compile",
+    "babel"
+  ],
+  "files": [
+    "bin/**",
+    "LICENSE",
+    "readme.md",
+    "package.json"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/kaliberjs/pack.git",
+  "dependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "meow": "^10.1.2",
+    "npm-run-path": "^5.0.1"
+  }
+}
