@@ -17,6 +17,7 @@
   ],
   "files": [
     "bin/**",
+    "config/**",
     "LICENSE",
     "readme.md",
     "package.json"
